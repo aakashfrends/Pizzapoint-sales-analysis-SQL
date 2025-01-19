@@ -9,3 +9,5 @@ revealing Classic Pizza as the top seller with 14,888 units, followed by Supreme
 while Medium (15,385), Small (14,137), and Extra-Large (544) were also significant, and XXL orders accounted for 28.
 <br>
 •	Calculated an average of 138 pizzas sold per day, providing actionable insights to improve sales strategies.
+<br>
+
