@@ -10,6 +10,7 @@ while Medium (15,385), Small (14,137), and Extra-Large (544) were also significa
 <br>
 •	Calculated an average of 138 pizzas sold per day, providing actionable insights to improve sales strategies.
 <br>
+<br>
 •••QUERY
 <br>
 <br>
