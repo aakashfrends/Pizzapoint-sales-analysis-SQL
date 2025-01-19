@@ -14,19 +14,19 @@ while Medium (15,385), Small (14,137), and Extra-Large (544) were also significa
 •••QUERY
 <br>
 <br>
-• LIST THE TOP 5 MOST ORDERED PIZZA TYPES ALONG WITH THEIR QUANTITIES.
+• List the top 5 most ordered pizza types along with their quantities.
 <br>
-SELECT
+Select
 <br>
-PIZZUYPES.NAME, SUM(ORDERS_DETAILS.QUANTITY)AS QUANTITY FROM
+pizzuypes.name, sum(orders_details.quantity)as quantity from
 <br>
-PIZZUYPES JOIN
+pizzuypes join
 <br>
-PIZZAS ON PIZZUYPES.PIZZUYPUD = PIZZAS.PIZZUYPUD JOIN
+pizzas on pizzuypes.pizzuypud = pizzas.pizzuypud join
 <br>
-ORDERS_DETAILS ON ORDERS_DETAILS.PIZZAJD = PIZZAS.PIZZAJD GROUP BY PIZZUYPES.NAME
+orders_details on orders_details.pizzajd = pizzas.pizzajd group by pizzuypes.name
 <br>
-ORDER BY QUANTITY DESC LIMIT 5;
+order by quantity desc limit 5;
 <br>
 <br>
 • SJoin the necessary tables to find the total quantity of each pizza ordered.
